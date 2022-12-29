@@ -66,9 +66,27 @@ if(population > averageCountryPopulation) {
 
 // Type Conversion and Coercion
 // . Predict the result of these 5 operations without executing them:
-// '9' - '5';
-// '19' - '13' + '17';
-// '19' - '13' + 17;
-// '123' < 57;
+// '9' - '5'; // 4
+// '19' - '13' + '17'; 
+// '19' - '13' + 17; 
+// '123' < 57; = // 
 // 5 + 6 + '4' + 9 - 4 - 2;
 
+// console.log(Number('9' - '5')); // 4 
+// console.log(String('19' - '13' + '17')); // '617'
+// console.log(Number(('19' - '13') + 17)); // 23
+// console.log(Boolean(('123') < 57)); // false 
+// console.log(5 + 6 + '4' + 9 - 4 - 2); // 1143
+
+// Equality Operators
+
+prompt('How many neighbor countries does your country have?');
+
+let numNeighbors;
+if(numNeighbors === 1) {
+  console.log('Only 1 border!');
+} else if (numNeighbors > 1) {
+  console.log('More than 1 border!');
+} else {
+  console.log('No borders!');
+};
