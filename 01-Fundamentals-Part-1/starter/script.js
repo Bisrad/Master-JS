@@ -104,3 +104,62 @@
 // const averageAge = (ageJonas + ageSarah) / 2; // grouping proceeds math
 // console.log(ageJonas, ageSarah);
 // console.log(averageAge);
+
+// // Template Literals 
+
+// const firstName = 'Jonas';
+// const job = 'teacher';
+// const birthYear = 1991;
+// const year = 2037;
+
+// // Bad concatenation 
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+
+// console.log(jonas);
+
+// // Correct template string
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(jonasNew);
+
+// // Create a multi-line string
+// console.log(`String with\nmultiple\nlines`);
+
+// // Control Structure // Taking Decisions If/Else
+
+// const age = 15;
+
+// if(age >= 18){
+//   console.log(`Sara can start driving 🚗`);
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+// };
+
+// const birthYear = 1991;
+
+// let century; // scoped
+// if(birthYear <= 2000){
+//   century = `20th`;
+// } else {
+//   century = `21st`;
+// }
+
+// // Type Conversion and Type Coercion 
+
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+
+// console.log(String(235), 235);
+
+// // Invalid Number
+// console.log(Number('Jonas'));
+
+// // type coercion
+// console.log('I am ' + 23 + ' years old');
+// console.log('23' - '10' - 3);
+// console.log('23' / '2');
+
+// let n = '1' + 1; // '11'
+// n = n - 1;
+// console.log(n);
